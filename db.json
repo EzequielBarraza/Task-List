@@ -4,7 +4,7 @@
       "id": 1,
       "text": "Finalizar modulo 1",
       "day": "Agosto 5 a las 14:00 pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 2,
@@ -16,13 +16,19 @@
       "id": 3,
       "text": "Investigar sobre Bootstrap",
       "day": "Agosto 5 a las 19:00 pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 4,
       "text": "Leer mi libro favorito",
       "day": "Agosto 5 a las 21:00 pm",
-      "reminder": true
+      "reminder": false
+    },
+    {
+      "text": "Ir a vacunarme",
+      "day": "24/01/2022",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
