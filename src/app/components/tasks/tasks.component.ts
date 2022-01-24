@@ -32,6 +32,6 @@ deleteTask(task: Task){
 
 toggleReminder(task:Task){
   task.reminder = !task.reminder;
-  console.log("tasks");
+  this.taskService.updateTaskReminder(task).subscribe();
 }
 }
