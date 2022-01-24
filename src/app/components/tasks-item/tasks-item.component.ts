@@ -21,6 +21,7 @@ onDelete(task:Task){
   
   this.onDeleteTask.emit(task);
 }
+
 onToggle(task:Task){
   this.onToggleReminder.emit(task);
 }

@@ -30,8 +30,8 @@ deleteTask(task: Task){
   ))
 }
 
-toggleReminder(task: Task){
-  task.reminder = !task.reminder
-  console.log("tasks")
+toggleReminder(task:Task){
+  task.reminder = !task.reminder;
+  console.log("tasks");
 }
 }
